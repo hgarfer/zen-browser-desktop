@@ -1,49 +1,25 @@
 {
-  "name": "Zen Browser",
-  "vendor": "Zen OSS Team",
-  "appId": "zen",
-  "binaryName": "zen",
+  "name": "Thunderbird",
+  "vendor": "Mozilla",
+  "appId": "thunderbird",
+  "binaryName": "thunderbird",
+  "engine": "thunderbird",
   "version": {
-    "product": "firefox",
-    "version": "157.0",
-    "candidate": "157.0",
-    "candidateBuild": 1
+    "product": "thunderbird",
+    "version": "157.0.1"
   },
   "buildOptions": {
-    "generateBranding": true
+    "generateBranding": false
   },
   "addons": {},
   "brands": {
-    "release": {
-      "backgroundColor": "#282A33",
-      "brandShorterName": "Zen",
-      "brandShortName": "Zen",
-      "brandFullName": "Zen Browser",
+    "nightly": {
+      "backgroundColor": "#0A84FF",
+      "brandShorterName": "Thunderbird",
+      "brandShortName": "Thunderbird",
+      "brandFullName": "Thunderbird",
       "release": {
-        "displayVersion": "1.23b",
-        "github": {
-          "repo": "zen-browser/desktop"
-        },
-        "archives": {
-          "windows": "windows.mar",
-          "macos-aarch64": "macos-aarch64.mar",
-          "linux": "linux.mar",
-          "macos-x64": "macos-x64.mar",
-          "windows-arm64": "windows-arm64.mar",
-          "linux-aarch64": "linux-aarch64.mar"
-        }
-      }
-    },
-    "twilight": {
-      "backgroundColor": "#282A33",
-      "brandShorterName": "Zen",
-      "brandShortName": "Twilight",
-      "brandFullName": "Zen Twilight",
-      "release": {
-        "displayVersion": "1.24t",
-        "github": {
-          "repo": "zen-browser/desktop"
-        }
+        "displayVersion": "157.0.1"
       }
     }
   },
@@ -52,6 +28,5 @@
       ".*\\.json"
     ],
     "licenseType": "MPL-2.0"
-  },
-  "updateHostname": "updates.zen-browser.app"
+  }
 }
